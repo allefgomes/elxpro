@@ -17,7 +17,7 @@ defmodule RaffleWeb.Router do
   scope "/", RaffleWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    live "/", RaffleLive, :index
   end
 
   # Other scopes may use custom stacks.
