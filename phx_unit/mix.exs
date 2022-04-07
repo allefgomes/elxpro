@@ -13,7 +13,8 @@ defmodule PhxUnit.MixProject do
       deps: deps(),
       test_coverage: [tool: ExCoveralls],
       preferred_cli_env: [
-        coveralls: :test
+        coveralls: :test,
+        "test.watch": :test
       ]
     ]
   end
