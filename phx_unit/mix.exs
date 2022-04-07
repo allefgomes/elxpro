@@ -25,7 +25,7 @@ defmodule PhxUnit.MixProject do
   def application do
     [
       mod: {PhxUnit.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :ex_machina]
     ]
   end
 
