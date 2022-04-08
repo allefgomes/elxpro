@@ -5,5 +5,5 @@ This is a repository to learn unit tests with ExUnit
 Our code was separeted in branchs equals in the talk.
 
 `step-1` is to show the principle of ExUnit file. \
-`step-2` is to show our first mix project.
+`step-2` is to show our first mix project. \
 `step-3` is to show our first phoenix project.
